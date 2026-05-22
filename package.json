@@ -1,0 +1,27 @@
+{
+  "name": "bugzero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrswastik-robot/playwright-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mrswastik-robot/playwright-tests/issues"
+  },
+  "homepage": "https://github.com/mrswastik-robot/playwright-tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "passmark": "^1.0.14"
+  }
+}

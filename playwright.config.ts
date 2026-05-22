@@ -13,7 +13,7 @@ export default defineConfig({
   reporter: 'html',
   use: {
     baseURL: 'https://automationexercise.com',
-    headless: false,
+    headless: !!process.env.CI,
     screenshot: 'only-on-failure',
     trace: 'on-first-retry',
   },
